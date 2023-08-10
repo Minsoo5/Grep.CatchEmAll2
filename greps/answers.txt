@@ -1,24 +1,69 @@
 # Part 1
 ### a)
+ggrep -P "beed" filescan_00.1
+ggrep -P "blas" filescan_00.1
+ggrep -P "bulb" filescan_00.1
+ggrep -P "butt" filescan_00.1
 
+ggrep -P "izard$" filescan_00.2
+ggrep -P "mander$" filescan_00.2
+ggrep -P "meleon$" filescan_00.2
 
+ggrep -P "aur$" filescan_00.3
+ggrep -P "lypuff$" filescan_00.3
+ggrep -P "th$" filescan_00.3
+ggrep -P "chu$" filescan_00.3
 
+ggrep -P "^psyd" filescan_00.4
+ggrep -P "^squi" filescan_00.4
+ggrep -P "^venu" filescan_00.4
+ggrep -P "^wart" filescan_00.4 >
 
 ### b)
 
+ggrep -P "beed" filescan_00.1 > ../captured/beedrill.txt
+ggrep -P "blas" filescan_00.1 > ../captured/blastoise.txt
+ggrep -P "bulb" filescan_00.1 > ../captured/bulbasaur.txt
+ggrep -P "butt" filescan_00.1 > ../captured/butterfree.txt
 
+ggrep -P "izard$" filescan_00.2 > ../captured/charizard.txt
+ggrep -P "mander$" filescan_00.2 > ../captured/charmander.txt
+ggrep -P "meleon$" filescan_00.2 > ../captured/charmeleon.txt
+
+ggrep -P "aur$" filescan_00.3 > ../captured/ivysaur
+ggrep -P "lypuff$" filescan_00.3 > ../captured/jigglypuff
+ggrep -P "th$" filescan_00.3 > ../captured/meowth
+ggrep -P "chu$" filescan_00.3 > ../captured/pikachu
+
+ggrep -P "^psyd" filescan_00.4 > ../captured/psyduck
+ggrep -P "^squi" filescan_00.4 > ../captured/squirtle
+ggrep -P "^venu" filescan_00.4 > ../captured/venusaur
+ggrep -P "^wart" filescan_00.4 > ../captured/wartortle
 
 ### c)
 
+filescan_00.1
+beedrill
+blastoise
+bulbasaur
+butterfree
 
+filesan_00.2
+charizard
+charmander
+charmeleon
 
+filescan_00.03
+ivysaur
+jigglypuff
+meowth
+pikachu
 
-
-
-
-
-
-
+filescan_00.4
+psyduck
+squirtle
+venusaur
+wartortle
 
 
 
