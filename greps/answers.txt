@@ -70,12 +70,36 @@ wartortle
 # Part 2
 ### a)
 
-
-
-
+15 pokemons
+ggrep -P -c "(zcw|tbap)" < ./*
 
 
 ### b)
+
+3 Biggest Poki-GoodBoys:
+Beedrill
+Charizard
+Pikachu
+
+wc -l *
+
+   40 beedrill.txt
+      38 blastoise.txt
+      30 bulbasaur.txt
+      38 butterfree.txt
+      40 charizard.txt
+      36 charmander.txt
+      37 charmeleon.txt
+       1 instruction.txt
+      33 ivysaur
+      34 jigglypuff
+      33 meowth
+      40 pikachu
+      37 psyduck
+      34 squirtle
+      32 venusaur
+      37 wartortle
+     540 total
 
 
 
